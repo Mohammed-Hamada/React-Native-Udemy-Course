@@ -6,6 +6,7 @@ import {
   CounterScreen,
   HomeScreen,
   ListScreen,
+  RandomColorsScreen,
 } from './src/screens';
 
 const navigator = createStackNavigator(
@@ -15,6 +16,7 @@ const navigator = createStackNavigator(
     List: ListScreen,
     AnimalsList: AnimalsListScreen,
     Counter: CounterScreen,
+    RandomColors: RandomColorsScreen,
   },
   {
     initialRouteName: 'Home',

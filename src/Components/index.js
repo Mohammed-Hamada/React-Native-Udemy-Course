@@ -1,3 +1,4 @@
 import AnimalComponent from './AnimalComponent';
+import RandomColor from './RandomColor';
 
-export default AnimalComponent;
+export { AnimalComponent, RandomColor };

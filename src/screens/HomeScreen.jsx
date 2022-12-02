@@ -32,6 +32,13 @@ const HomeScreen = ({ navigation }) => {
         }}
         title="Go To Counter Demo"
       />
+       <Button
+        color={'#ff00f7'}
+        onPress={() => {
+          navigation.navigate('RandomColors');
+        }}
+        title="Go To RandomColors Demo"
+      />
     </View>
   );
 };
