@@ -3,6 +3,7 @@ import ComponentsScreen from './ComponentsScreen';
 import CounterScreen from './CounterScreen';
 import HomeScreen from './HomeScreen';
 import ListScreen from './ListScreen';
+import ManualColorGenerator from './ManualColorGenerator';
 import RandomColorsScreen from './RandomColorsScreen';
 
 export {
@@ -12,4 +13,5 @@ export {
   HomeScreen,
   ListScreen,
   RandomColorsScreen,
+  ManualColorGenerator,
 };

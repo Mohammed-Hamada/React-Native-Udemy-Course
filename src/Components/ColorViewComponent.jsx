@@ -1,7 +1,7 @@
 import { View } from 'react-native';
 import React from 'react';
 
-const RandomColor = ({ color }) => {
+const ColorViewComponent = ({ color }) => {
   console.log('color: ', color);
 
   return (
@@ -15,4 +15,4 @@ const RandomColor = ({ color }) => {
   );
 };
 
-export default RandomColor;
+export default ColorViewComponent;

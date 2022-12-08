@@ -1,6 +1,6 @@
 import { Button, FlatList, StyleSheet, Text, View } from 'react-native';
 import React, { useState } from 'react';
-import { RandomColor } from '../Components';
+import { ColorViewComponent } from '../Components';
 
 const RandomColorsScreen = () => {
   const [colors, setColors] = useState([]);
@@ -16,7 +16,7 @@ const RandomColorsScreen = () => {
       <FlatList
         data={colors}
         renderItem={({ item }) => {
-          return <RandomColor color={item} />;
+          return <ColorViewComponent color={item} />;
         }}
         keyExtractor={(item, index) => `${item}${index}`}
       />
@@ -34,5 +34,3 @@ const generateRandomColor = () => {
 };
 
 export default RandomColorsScreen;
-
-const styles = StyleSheet.create({});

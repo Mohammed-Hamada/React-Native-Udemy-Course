@@ -1,4 +1,5 @@
 import AnimalComponent from './AnimalComponent';
-import RandomColor from './RandomColor';
+import ColorViewComponent from './ColorViewComponent';
+import ControlColorComponent from './ControlColorComponent';
 
-export { AnimalComponent, RandomColor };
+export { AnimalComponent, ColorViewComponent, ControlColorComponent };
